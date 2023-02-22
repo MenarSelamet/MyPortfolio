@@ -6,16 +6,18 @@ import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 
+
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <Main/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-    </div>
+      <Main />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    
+    </>
   );
 }
 

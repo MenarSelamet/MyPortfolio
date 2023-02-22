@@ -32,13 +32,15 @@ const Projects = () => {
             tech="Vanilla JavaScript"
             style="CSS"
           />
-          <Card
-            title="Hangman Game"
-            backgroundImage={Hangman}
-            projectUrl="/hangman"
-            tech="Vanilla JavaScript"
-            style="CSS"
-          />
+        
+            <Card
+              title="Hangman Game"
+              backgroundImage={Hangman}
+              projectUrl="/hangman"
+              tech="Vanilla JavaScript"
+              style="CSS"
+            />
+      
         </div>
       </div>
     </div>
