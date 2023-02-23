@@ -8,10 +8,10 @@ function About() {
         <div className="col-span-2">
           <h2 className="uppercase tracking-widest py-4">About</h2>
           <p className="py-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            alias aspernatur impedit dolorem nam tempora minus doloremque fugit
-            molestias accusantium dolorum vero eveniet, laudantium fugiat
-            similique rem nisi blanditiis? Dolores.
+            Detail-oriented Front-End Web Developer. With experience in React
+            and React-related libraries and a zest for creating dynamic,
+            user-friendly web applications. I possess advanced Agile Project
+            Management skills and am a motivated team player.
           </p>
           <a
             href="https://www.canva.com/design/DAFSRmWYo_k/B69moS0ux5KGgfvRBzZvhA/view?utm_content=DAFSRmWYo_k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"

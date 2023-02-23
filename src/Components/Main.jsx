@@ -16,10 +16,10 @@ const Main = () => {
           </h1>
           <h1 className="py-2">A Front-End Web Developer</h1>
           <p className="py-4 text-red-700 max-w-[70%] m-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error modi
-            excepturi illo voluptatibus deleniti assumenda natus ab dolore
-            aperiam deserunt totam, impedit voluptates laudantium sit
-            accusantium rem aspernatur fugit nemo.
+            Detail-oriented Front-End Web Developer. With experience in React
+            and React-related libraries and a zest for creating dynamic,
+            user-friendly web applications. I possess advanced Agile Project
+            Management skills and am a motivated team player.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
