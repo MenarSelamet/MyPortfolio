@@ -41,12 +41,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <a href="/#home">
-          <img
-            src={navLogo}
-            alt="/"
-            width="125"
-            height="130"
-          />
+          <img src={navLogo} alt="/" width="125" height="130" />
         </a>
         <div>
           <ul className="hidden md:flex">
@@ -86,12 +81,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <img
-                src={navLogo}
-                alt="/"
-                width="80"
-                height="45"
-              />
+              <img src={navLogo} alt="/" width="80" height="45" />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -159,7 +149,12 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </a>
-                <a onClick={() => setNav(false)} href="/resume">
+                <a
+                  onClick={() => setNav(false)}
+                  href="https://www.canva.com/design/DAFSRmWYo_k/B69moS0ux5KGgfvRBzZvhA/view?utm_content=DAFSRmWYo_k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>
