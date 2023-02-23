@@ -13,8 +13,13 @@ function About() {
             molestias accusantium dolorum vero eveniet, laudantium fugiat
             similique rem nisi blanditiis? Dolores.
           </p>
-          <a href="/#projects" className="py-2 underline cursor-pointer">
-            Check out some of my projects.
+          <a
+            href="https://www.canva.com/design/DAFSRmWYo_k/B69moS0ux5KGgfvRBzZvhA/view?utm_content=DAFSRmWYo_k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+            target="_blank"
+            rel="noreferrer"
+            className="py-2 underline cursor-pointer"
+          >
+            Check out my Resume
           </a>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-110 ease-in duration-300">
