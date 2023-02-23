@@ -54,7 +54,11 @@ const Contacts = () => {
                       <AiOutlineMail />
                     </div>
                   </a>
-                  <a href="/resume">
+                  <a
+                    href="https://www.canva.com/design/DAFSRmWYo_k/B69moS0ux5KGgfvRBzZvhA/view?utm_content=DAFSRmWYo_k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonLinesFill />
                     </div>
