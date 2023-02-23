@@ -14,33 +14,36 @@ const Projects = () => {
           <Card
             title="Online Therapist"
             backgroundImage={OnlineTherapist}
-            projectUrl="/therapist"
+            projectCode="https://github.com/MenarSelamet/RE-Minded"
+            projectDemo="https://main--jocular-kitsune-979dd9.netlify.app/"
             tech="React JS"
             style="Tailwind CSS"
           />
           <Card
             title="Movie Project"
             backgroundImage={MovieProject}
-            projectUrl="/movie"
+            projectCode="https://github.com/MenarSelamet/movie-project-piratesbay"
+            projectDemo="https://cerulean-douhua-fd29c1.netlify.app/#"
             tech="Vanilla JavaScript"
             style="CSS"
           />
           <Card
             title="MadLibs Game"
             backgroundImage={MadLibs}
-            projectUrl="/madlibs"
+            projectCode="https://github.com/MenarSelamet/mad-libs-callthepolice"
+            projectDemo="https://fluffy-haupia-330d9a.netlify.app/"
             tech="Vanilla JavaScript"
             style="CSS"
           />
-        
-            <Card
-              title="Hangman Game"
-              backgroundImage={Hangman}
-              projectUrl="/hangman"
-              tech="Vanilla JavaScript"
-              style="CSS"
-            />
-      
+
+          <Card
+            title="Hangman Game"
+            backgroundImage={Hangman}
+            projectCode="https://github.com/MenarSelamet/hangman-firsttime"
+            projectDemo="https://comfy-flan-05b548.netlify.app/"
+            tech="Vanilla JavaScript"
+            style="CSS"
+          />
         </div>
       </div>
     </div>

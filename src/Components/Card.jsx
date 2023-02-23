@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Card = ({ title, backgroundImage, projectUrl, tech, style }) => {
+const Card = ({ title, backgroundImage, projectCode, projectDemo, tech, style }) => {
   return (
     <div>
       <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-stone-400 to-zinc-900">
@@ -15,11 +15,18 @@ const Card = ({ title, backgroundImage, projectUrl, tech, style }) => {
           <p className=" pt-2 text-center">{tech}</p>
           <p className=" pt-2 text-center">{style}</p>
 
-          <a href={projectUrl}>
-            <p className="pb-2 pt-2 mt-2 text-center text-red-400 rounded-lg bg-white font-bold text-lg cursor-pointer">
-              More Info
-            </p>
-          </a>
+          <div className="flex flex-row justify-evenly mt-4">
+            <a href={projectDemo} target="_blank" rel="noreferrer">
+              <p className=" p-2 text-center text-red-400 rounded-lg bg-white font-bold text-lg cursor-pointer">
+                Demo
+              </p>
+            </a>
+            <a href={projectCode} target="_blank" rel="noreferrer">
+              <p className="p-2 text-center text-red-400 rounded-lg bg-white font-bold text-lg cursor-pointer">
+                Code
+              </p>
+            </a>
+          </div>
         </div>
       </div>
     </div>
