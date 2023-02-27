@@ -70,11 +70,12 @@ const Contacts = () => {
 
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form action="mailto:MenarSelamet007@gmail.com" method="post">
+              <form action="mailto:MenarSelamet007@gmail.com" method="post" encType="text/plain">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
+                    name="Your Name"
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                     />
@@ -85,7 +86,8 @@ const Contacts = () => {
                     </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
+                      type="number"
+                      name="Your Number"
                     />
                   </div>
                 </div>
@@ -94,6 +96,7 @@ const Contacts = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
+                    name="Your Email"
                   />
                 </div>
                 <div className="flex flex-col py-2 ">
@@ -101,6 +104,7 @@ const Contacts = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
+                    name="Subject"
                   />
                 </div>
                 <div className="flex flex-col py-2 ">
@@ -108,6 +112,7 @@ const Contacts = () => {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
+                    name="Your Message"
                   ></textarea>
                 </div>
                 <button className=" w-full p-4 text-gray-100 mt-4">
